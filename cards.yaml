@@ -1,0 +1,93 @@
+cards: 
+    
+    # Hardware
+    
+    Anti-Personel Weaponry:
+        type: Hardware
+        subtype: Defensive Weapon
+        cost: 4
+        credits: 2
+        attack: 1
+        text: "Combat: Choose a personel resource to become unusable."
+        
+    Iron Plating:
+        type: Hardware
+        subtype: Structure
+        cost: 0
+        credits: 1
+        attack: 0
+        text: "Build: When you install this card, draw a card."
+    
+    TVC Engines:
+        type: Hardware
+        subtype: Engine
+        cost: 3
+        credits: 4
+        attack: 1
+        text: "Exploration: You may take an additional card."
+    
+    Force Field:
+        type: Hardware
+        subtype: Shield
+        cost: 7
+        credits: 3
+        attack: 0
+        text: "Combat: Choose a missile to become unusable."
+        
+    Reinforced Hull:
+        type: Hardware
+        subtype: Structure
+        cost: 2
+        credits: 2
+        attack: 0
+        text: "Exploration: Look at an additional card."
+        
+    High Beam Laser:
+        type: Hardware
+        subtype: Laser
+        cost: 6
+        credits: 2
+        attack: 4
+        
+    # Technology
+    Lasers:
+        cost: 6
+        type: Technology
+        subtype: Lasers
+
+    Defense System:
+        cost: 4
+        type: Technology
+        subtype: Defensive Weapon
+        
+    Engine Room Upgrades:
+        cost: 3
+        type: Technology
+        subtype: Engine
+
+    Quantum Shielding:
+        cost: 4
+        type: Technology
+        subtype: Structure
+        
+    # Resources
+    Reinforcements:
+        type: Resource
+        subtype: Personel
+        cost: 6
+        credits: 0
+        attack: 0
+        text: "Combat: Draw 3 cards"
+    
+    Skilled Pilot: 
+        cost: 2
+        credits: 4
+        attack: 1
+        text: "Combat: Move this attack to a different side"
+    
+        
+            
+            
+            
+            
+            
