@@ -10,8 +10,8 @@ Each player starts with:
         1 Shield
 
 To begin the game, there is a large space stack. Draw the top 6 cards and place
-them face up in the center of the table. Each player draws 5 cards. Randomly 
-determine a player to go first. 
+them face up in the center of the table. This is the market. Each player draws 
+5 cards. Randomly determine a player to go first. 
 
 Turn:
     Draw: Draw up to 5 (you are allowed to hold onto cards from previous turns)
@@ -23,8 +23,9 @@ Turn:
         pile, and choose a card in the market to replace (the old market card is destroyed)
      
     Trade:
-        Discard an amount of gold equal to the cards cost to buy a card. They purchased card is 
-        added to your discard pile. 
+        Discard an amount of gold equal to the cards cost to buy a card from the market. 
+        The purchased card is added to your discard pile, and the market is filled face up
+        with a card from the space stack. 
         
     Attack:
         Declare attack and which side of the ship.
