@@ -1,19 +1,19 @@
-ship:
-    Cruiser:
+ships:
+    -   name: Cruiser
         slots:
             - Structure
             - Structure
             - Missile
             - Shield
 
-    Transport:
+    -   name: Transport
         slots:
             - Structure
             - Shield
             - Shield
             - Defensive
 
-    Fighter:
+    -   name: Fighter
         slots:
             - Structure
             - Missile

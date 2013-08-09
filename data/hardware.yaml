@@ -1,26 +1,26 @@
 # Hardware - 30
 # -lasers- 3, -shield- 4, -structure- 10, missiles 6, engine 4, defensive 3,
 hardware:
-    Anti-Personel Weaponry:
+    -   name: Anti-Personnel Weaponry
         quantity: 2
         type: Hardware
-        subtype: Defensive Weapon
+        subtype: Defensive
         cost: 6
         credits: 2
         attack: 1
-        text: "Combat: Choose a personel resource to become unusable."
+        text: "Combat: Choose a Personnel resource to become unusable."
 
-    Transmission Jam:
+    -   name: Transmission Jam
         quantity: 1
         type: Hardware
-        subtype: Defensive Weapon
+        subtype: Defensive
         cost: 2
         credits: 3
         attack: 0
         text: "Combat: Choose a transmission resource to become unusable."
 
 
-    TVC Engines:
+    -   name: TVC Engines
         quantity: 1
         type: Hardware
         subtype: Engine
@@ -29,7 +29,7 @@ hardware:
         attack: 1
         text: "Exploration: You may take an additional card."
 
-    FTL Engines:
+    -   name: FTL Engines
         quantity: 2
         type: Hardware
         subtype: Engine
@@ -38,7 +38,7 @@ hardware:
         attack: 0
         text: "Combat: You may discard 3 cards to end this combat."
 
-    Antimatter Drive:
+    -   name: Antimatter Drive
         quantity: 1
         type: Hardware
         subtype: Engine
@@ -49,7 +49,7 @@ hardware:
 
 
 
-    Small Missile:
+    -   name: Small Missile
         quantity: 2
         type: Hardware
         subtype: Missile
@@ -58,7 +58,7 @@ hardware:
         cost: 2
         text: "Combat: +3 attack. Destroy this weapon at the end of combat."
 
-    Nuculear Missile:
+    -   name: Nuculear Missile
         quantity: 2
         type: Hardware
         subtype: Missile
@@ -67,7 +67,7 @@ hardware:
         cost: 7
         text: "Combat: +6 attack. Destroy this weapon at the end of combat. Your other missiles become unusable."
 
-    Seeking Missile:
+    -   name: Seeking Missile
         quantity: 2
         type: Hardware
         subtype: Missile
@@ -76,7 +76,7 @@ hardware:
         cost: 8
         text: "Combat: Destroy this weapon to destroy a structure"
 
-    Plasteel Carapace:
+    -   name: Plasteel Carapace
         quantity: 2
         type: Hardware
         subtype: Structure
@@ -84,7 +84,7 @@ hardware:
         credits: 2
         attack: 3
 
-    Carbon-Steel Armor:
+    -   name: Carbon-Steel Armor
         quantity: 2
         type: Hardware
         subtype: Structure
@@ -93,7 +93,7 @@ hardware:
         attack: 1
         text: "Exploration: You may choose to discard any number of cards you explore"
 
-    Iron Plating:
+    -   name: Iron Plating
         quantity: 3
         type: Hardware
         subtype: Structure
@@ -102,7 +102,7 @@ hardware:
         attack: 0
         text: "Build: When you install this card, draw a card."
 
-    Reinforced Hull:
+    -   name: Reinforced Hull
         quantity: 3
         type: Hardware
         subtype: Structure
@@ -111,7 +111,7 @@ hardware:
         attack: 0
         text: "Exploration: Look at an additional card."
 
-    Hull:
+    -   name: Hull
         quantity: 0
         cost: 0
         type: Hardware
@@ -120,7 +120,7 @@ hardware:
         attack: 0
 
 
-    Force Field:
+    -   name: Force Field
         quantity: 2
         type: Hardware
         subtype: Shield
@@ -129,7 +129,7 @@ hardware:
         attack: 0
         text: "Combat: Target missile becomes unusable."
 
-    Reflection Field:
+    -   name: Reflection Field
         quantity: 2
         type: Hardware
         subtype: Shield
@@ -138,7 +138,7 @@ hardware:
         attack: 1
         text: "Response: Instead of destroying this shield, you may discard 3 cards."
 
-    High Beam Laser:
+    -   name: High Beam Laser
         quantity: 1
         type: Hardware
         subtype: Laser
@@ -147,7 +147,7 @@ hardware:
         attack: 4
         text: "Combat: Target shield becomes unusable"
 
-    Deathstar Laser:
+    -   name: Deathstar Laser
         quantity: 1
         type: Hardware
         subtype: Laser
@@ -155,7 +155,7 @@ hardware:
         credits: 2
         attack: 6
 
-    Precision Laser:
+    -   name: Precision Laser
         quantity: 1
         type: Hardware
         subtype: Laser

@@ -1,43 +1,43 @@
 # Technology: 20
 
 technology:
-    Lasers:
+    -   name: Lasers
         quantity: 2
         cost: 6
         type: Technology
         subtype: Lasers
 
-    Defense System:
+    -   name: Defense System
         quantity: 2
         cost: 4
         type: Technology
-        subtype: Defensive Weapon
+        subtype: Defensive
 
-    Engine Room Upgrades:
+    -   name: Engine Room Upgrades
         quantity: 2
         cost: 3
         type: Technology
         subtype: Engine
 
-    Quantum Shielding:
+    -   name: Quantum Shielding
         quantity: 1
         cost: 4
         type: Technology
         subtype: Shield
 
-    Titanium Hull:
+    -   name: Titanium Hull
         quantity: 4
         cost: 2
         type: Technology
         subtype: Structure
 
-    Additional Missile Pods:
+    -   name: Additional Missile Pods
         quantity: 1
         cost: 1
         type: Technology
         subtype: Missiles
 
-    Warp Speed Engine:
+    -   name: Warp Speed Engine
         quantity: 3
         cost: 1
         type: Technology
