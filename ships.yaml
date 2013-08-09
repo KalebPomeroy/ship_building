@@ -1,0 +1,22 @@
+ship:
+    Cruiser:
+        slots:
+            - Structure
+            - Structure
+            - Missile
+            - Shield
+
+    Transport:
+        slots:
+            - Structure
+            - Shield
+            - Shield
+            - Defensive
+
+    Fighter:
+        slots:
+            - Structure
+            - Missile
+            - Missile
+            - Laser
+

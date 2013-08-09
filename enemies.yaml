@@ -1,0 +1,44 @@
+# Enemies: 15
+enemies:
+    Alien Destroyer:
+        quantity: 2
+        attack: 8
+        points: 2
+        text: Missles are unusable
+
+    Alien Scout:
+        quantity: 3
+        attack: 7
+        points: 1
+        text: Personnel are unusable
+
+    Alien Diplomat:
+        quantity: 2
+        attack: 8
+        points: -1
+        text: You may put this in any player's trophy zone
+
+    Alien Raider:
+        quantity: 4
+        attack: 12
+        points: 2
+        text: "If you encounter this in exploration, you must fight it immediately"
+
+    Alien Battlecruiser:
+        quantity: 2
+        attack: 15
+        points: 3
+        text: "At the start of combat, destroy one structure"
+
+    Alien Trade Ship:
+        quantity: 4
+        attack: 8
+        points: 1
+        text: "After you destroy this ship, draw 4 cards"
+
+    Alien Research station:
+        quantity: 3
+        attack: 9
+        points: 1
+        text: You may search the deck for 1 technology card and put it into play.
+

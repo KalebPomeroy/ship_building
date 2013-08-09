@@ -1,27 +1,5 @@
-cards: 
-    Credit Stick:
-        type: Resource
-        subtype: Credits
-        credits: 3
-        attack: 0
-        text: "Trade: After you spend this, draw a card"
-        
-    Marine:
-        type: Resource
-        subtype: Personel
-        credits: 0
-        attack: 3
-        text: ""
-            
-    Small Missile:
-        type: Hardware
-        subtype: Missile
-        credits: 2
-        attack: 1
-        text: "Combat: +3 attack. Destroy this weapon at the end of combat."
-        
-    Hull: 
-        type: Hardware
-        subtype: Structure
-        credits: 2
-        attack: 0
+cards:
+    Credit Stick: 4
+    Marine: 2
+    Small Missile: 2
+    Hull: 1

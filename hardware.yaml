@@ -1,0 +1,170 @@
+# Hardware - 30
+# -lasers- 3, -shield- 4, -structure- 10, missiles 6, engine 4, defensive 3,
+hardware:
+    Anti-Personel Weaponry:
+        quantity: 2
+        type: Hardware
+        subtype: Defensive Weapon
+        cost: 6
+        credits: 2
+        attack: 1
+        text: "Combat: Choose a personel resource to become unusable."
+
+    Transmission Jam:
+        quantity: 1
+        type: Hardware
+        subtype: Defensive Weapon
+        cost: 2
+        credits: 3
+        attack: 0
+        text: "Combat: Choose a transmission resource to become unusable."
+
+
+    TVC Engines:
+        quantity: 1
+        type: Hardware
+        subtype: Engine
+        cost: 3
+        credits: 4
+        attack: 1
+        text: "Exploration: You may take an additional card."
+
+    FTL Engines:
+        quantity: 2
+        type: Hardware
+        subtype: Engine
+        cost: 3
+        credits: 1
+        attack: 0
+        text: "Combat: You may discard 3 cards to end this combat."
+
+    Antimatter Drive:
+        quantity: 1
+        type: Hardware
+        subtype: Engine
+        cost: 5
+        credits: 0
+        attack: 1
+        text: "Trade: Lower the cost of a card in the market by 3."
+
+
+
+    Small Missile:
+        quantity: 2
+        type: Hardware
+        subtype: Missile
+        credits: 2
+        attack: 1
+        cost: 2
+        text: "Combat: +3 attack. Destroy this weapon at the end of combat."
+
+    Nuculear Missile:
+        quantity: 2
+        type: Hardware
+        subtype: Missile
+        credits: 4
+        attack: 3
+        cost: 7
+        text: "Combat: +6 attack. Destroy this weapon at the end of combat. Your other missiles become unusable."
+
+    Seeking Missile:
+        quantity: 2
+        type: Hardware
+        subtype: Missile
+        credits: 1
+        attack: 1
+        cost: 8
+        text: "Combat: Destroy this weapon to destroy a structure"
+
+    Plasteel Carapace:
+        quantity: 2
+        type: Hardware
+        subtype: Structure
+        cost: 5
+        credits: 2
+        attack: 3
+
+    Carbon-Steel Armor:
+        quantity: 2
+        type: Hardware
+        subtype: Structure
+        cost: 4
+        credits: 2
+        attack: 1
+        text: "Exploration: You may choose to discard any number of cards you explore"
+
+    Iron Plating:
+        quantity: 3
+        type: Hardware
+        subtype: Structure
+        cost: 0
+        credits: 1
+        attack: 0
+        text: "Build: When you install this card, draw a card."
+
+    Reinforced Hull:
+        quantity: 3
+        type: Hardware
+        subtype: Structure
+        cost: 2
+        credits: 2
+        attack: 0
+        text: "Exploration: Look at an additional card."
+
+    Hull:
+        quantity: 0
+        cost: 0
+        type: Hardware
+        subtype: Structure
+        credits: 2
+        attack: 0
+
+
+    Force Field:
+        quantity: 2
+        type: Hardware
+        subtype: Shield
+        cost: 7
+        credits: 3
+        attack: 0
+        text: "Combat: Target missile becomes unusable."
+
+    Reflection Field:
+        quantity: 2
+        type: Hardware
+        subtype: Shield
+        cost: 3
+        credits: 2
+        attack: 1
+        text: "Response: Instead of destroying this shield, you may discard 3 cards."
+
+    High Beam Laser:
+        quantity: 1
+        type: Hardware
+        subtype: Laser
+        cost: 6
+        credits: 2
+        attack: 4
+        text: "Combat: Target shield becomes unusable"
+
+    Deathstar Laser:
+        quantity: 1
+        type: Hardware
+        subtype: Laser
+        cost: 9
+        credits: 2
+        attack: 6
+
+    Precision Laser:
+        quantity: 1
+        type: Hardware
+        subtype: Laser
+        cost: 6
+        credits: 2
+        attack: 2
+        text: "If you win an attack, you choose which hardware is destroyed (on the attacked side)"
+
+
+
+
+

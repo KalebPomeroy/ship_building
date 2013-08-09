@@ -1,0 +1,122 @@
+# 30 Cards
+# Personnel, Credits, Transmissions, Fate
+
+resource:
+    Marine:
+        type: Resource
+        quantity: 0
+        subtype: Personel
+        credits: 0
+        cost: 0
+        attack: 3
+        text: ""
+
+    Reinforcements:
+        quantity: 3
+        type: Resource
+        subtype: Personel
+        cost: 6
+        credits: 0
+        attack: 0
+        text: "Combat: Draw 3 cards"
+
+    Skilled Pilot:
+        quantity: 2
+        type: Resource
+        subtype: Personel
+        cost: 2
+        credits: 4
+        attack: 1
+        text: "Combat: Move this attack to a different side of the ship"
+
+    Marksman:
+        quantity: 2
+        type: Resource
+        subtype: Personel
+        cost: 4
+        credits: 2
+        attack: 3
+        text: "Combat: Target defensive weapon becomes unusable."
+
+    Saboteur:
+        quantity: 3
+        type: Resource
+        subtype: Personel
+        cost: 2
+        credits: 2
+        attack: 2
+        text: "Combat: Target structure becomes unusable."
+
+
+    Credit Stick:
+        quantity: 3
+        type: Resource
+        subtype: Credits
+        cost: 0
+        credits: 3
+        attack: 0
+        text: "Trade: After you spend this, draw a card"
+
+    Off Planet Accounts:
+        quantity: 2
+        type: Resource
+        subtype: Credits
+        cost: 3
+        credits: 7
+        attack: 0
+        text: "Combat: You may give this card to your opponent to end this combat."
+
+
+    Radar Targeting:
+        quantity: 3
+        type: Resource
+        subtype: Transmission
+        cost: 2
+        credits: 0
+        attack: 2
+        text: "Combat: +2 Attack. Only usable against alien ships."
+
+    Tapped Radio Comms:
+        quantity: 1
+        type: Resource
+        subtype: Transmission
+        cost: 3
+        credits: 0
+        attack: 1
+        text: "Combat: Reveal your opponent's hand"
+
+    Incoming Transmission:
+        quantity: 3
+        type: Resource
+        subtype: Transmission
+        cost: 1
+        credits: 1
+        attack: 0
+        text: "Market: Reveal the top card of the space deck and choose to discard it or put it in the market."
+
+    Mysterious Benefactor:
+        quantity: 3
+        type: Resource
+        subtype: Fate
+        cost: 2
+        credits: 0
+        attack: 0
+        text: "Immediate Combat: If you are the defender, draw 3 cards"
+
+    Asteroid Field:
+        quantity: 3
+        type: Resource
+        subtype: Fate
+        cost: 5
+        credits: 0
+        attack: 0
+        text: "Immediate Combat: Each player discards 2 cards"
+
+    Solar Flare:
+        quantity: 3
+        type: Resource
+        subtype: Fate
+        cost: 6
+        credits: 0
+        attack: 0
+        text: "Immediate Combat: Each player must destroy one card in play."
